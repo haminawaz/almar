@@ -28,7 +28,7 @@ export default function ProductSection() {
           </div>
 
           <div>
-            <div className="relative flex items-ceter justify-center">
+            <div className="relative flex items-ceter justify-center w-[200px] md:w-[400px]">
               <Image
                 src="/images/learn-more.png"
                 alt="learn-more"
