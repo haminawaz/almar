@@ -1,4 +1,4 @@
-import { MoveRight, Plus } from "lucide-react";
+import { ArrowRight, MoveRight, Plus } from "lucide-react";
 
 export default function LandSection() {
   return (
@@ -23,16 +23,13 @@ export default function LandSection() {
             mobility, perimeter security, reconnaissance, and all-terrain
             logistics support.
           </p>
-          <button className="group bg-transparent text-white text-sm sm:text-base md:text-xl py-3 rounded-sm font-medium transition-all duration-300 inline-flex items-center">
-            Learn more about our land USV’s
-            <span className="ml-2 w-5 h-5 flex items-center justify-center">
-              <span className="block group-hover:hidden">
-                <Plus />
-              </span>
-
-              <span className="hidden group-hover:block transition-transform duration-300">
-                <MoveRight />
-              </span>
+          <button className="group bg-transparent text-white text-sm sm:text-xl md:text-2xl py-3 rounded-sm font-medium transition-all duration-300 inline-flex items-center">
+            <span className="mr-3">Learn more about our land USV’s</span>
+            <span className="block group-hover:hidden w-8 h-8 md:w-9 md:h-9 xl:w-10 xl:h-10 bg-[#2c3848]">
+              <Plus className="w-full h-full" color="#fff" />
+            </span>
+            <span className="hidden group-hover:block w-8 h-8 md:w-9 md:h-9 xl:w-10 xl:h-10 transition-transform duration-300 bg-[#2c3848]">
+              <ArrowRight className="w-full h-full" color="#fff" />
             </span>
           </button>
         </div>

@@ -1,4 +1,4 @@
-import { MoveRight, Plus } from "lucide-react";
+import { ArrowRight, Plus } from "lucide-react";
 
 export default function ContactUsSection() {
   return (
@@ -21,15 +21,12 @@ export default function ContactUsSection() {
             improve your operations.
           </p>
           <button className="group bg-transparent border-2 border-white text-white py-2 rounded-sm font-medium text-xl px-6 inline-flex items-center">
-            Learn more
-            <span className="ml-2 w-5 h-5 flex items-center justify-center">
-              <span className="block group-hover:hidden">
-                <Plus />
-              </span>
-
-              <span className="hidden group-hover:block transition-transform duration-300">
-                <MoveRight />
-              </span>
+            <span className="mr-3">Learn more</span>
+            <span className="block group-hover:hidden w-8 h-8 md:w-9 md:h-9 xl:w-10 xl:h-10">
+              <Plus className="w-full h-full" color="#fff" />
+            </span>
+            <span className="hidden group-hover:block w-8 h-8 md:w-9 md:h-9 xl:w-10 xl:h-10 transition-transform duration-300 bg-[#2c3848]">
+              <ArrowRight className="w-full h-full" color="#fff" />
             </span>
           </button>
         </div>
