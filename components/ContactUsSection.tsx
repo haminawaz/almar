@@ -16,7 +16,7 @@ export default function ContactUsSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
             Contact us
           </h2>
-          <p className="text-lg sm:text-xl mb-8 opacity-90">
+          <p className="text-base sm:text-xl mb-8 opacity-90">
             Reach out to us to discover how we can work together to optimize and
             improve your operations.
           </p>
