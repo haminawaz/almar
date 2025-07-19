@@ -31,7 +31,7 @@ export default function ContactForm() {
         <div className="w-9/12 md:w-7/12 max-w-lg lg:max-w-xl mx-auto">
           <div className="mb-8">
             <div className="text-[1.7rem] mb-6">Contact form</div>
-            <h2 className="text-3xl sm:text-4xl lg:text-[2.55rem] font-bold text-gray-900 mb-4">
+            <h2 className="text-xl xs:text-3xl sm:text-4xl lg:text-[2.55rem] font-bold text-gray-900 mb-4">
               Contact ALMAR for demos
               <br />
               or support.
@@ -85,7 +85,7 @@ export default function ContactForm() {
 
             <button
               type="submit"
-              className="bg-black text-white p-1 text-2xl rounded-sm font-medium hover:bg-gray-800 transition-colors duration-300"
+              className="bg-black text-white p-1 text-xl sm:text-2xl lg:text-3xl rounded-sm font-medium hover:bg-gray-800 transition-colors duration-300"
             >
               Request a demo
             </button>

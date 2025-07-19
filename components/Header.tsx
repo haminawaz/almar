@@ -144,9 +144,8 @@ export default function Header() {
     <header className="absolute top-0 left-0 right-0 z-50 bg-transparent border-b-2">
       <div className="w-full overflow-hidden">
         <div className="flex justify-between">
-          {/* Logo and left nav */}
           <div className="flex">
-            <div className="flex items-center px-4 lg:px-10 py-3 border-r-2">
+            <div className="flex items-center px-4 lg:px-10 py-5 border-r-2">
               <div className="text-white font-bold text-xl lg:text-2xl w-[100px] lg:w-[200px]">
                 <Image
                   src="/logo.svg"
