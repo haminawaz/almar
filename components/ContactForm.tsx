@@ -28,10 +28,10 @@ export default function ContactForm() {
   return (
     <section className="py-16 md:py-24 bg-[#EFEFEF]">
       <div className="flex flex-col lg:flex-row mx-auto">
-        <div className="w-9/12 md:w-7/12 max-w-lg lg:max-w-xl mx-auto">
+        <div className="w-9/12 md:w-7/12 max-w-lg lg:max-w-xl xxl:max-w-3xl mx-auto xxl:me-0">
           <div className="mb-8">
-            <div className="text-[1.7rem] mb-6">Contact form</div>
-            <h2 className="text-xl xs:text-3xl sm:text-4xl lg:text-[2.55rem] font-bold text-gray-900 mb-4">
+            <div className="text-[1.7rem] xxl:text-[2rem] mb-6">Contact form</div>
+            <h2 className="text-xl xs:text-3xl sm:text-4xl lg:text-[2.55rem] xxl:text-[3rem] font-bold text-gray-900 mb-4">
               Contact ALMAR for demos
               <br />
               or support.
@@ -85,17 +85,17 @@ export default function ContactForm() {
 
             <button
               type="submit"
-              className="bg-black text-white p-1 text-xl sm:text-2xl lg:text-3xl rounded-sm font-medium hover:bg-gray-800 transition-colors duration-300"
+              className="bg-black text-white p-2 text-lg sm:text-xl lg:text-2xl xxl:text-3xl rounded-sm font-medium hover:bg-gray-800 transition-colors duration-300"
             >
               Request a demo
             </button>
           </form>
         </div>
-        <div className="flex justify-end w-full lg:w-5/12">
+        <div className="flex justify-end w-full lg:w-5/12 xxl:w-1/2">
           <Image
             src="/images/contact-form.png"
             alt="logo"
-            className="object-contain"
+            className="object-contain xxl:w-[750px]"
             width={500}
             height={500}
             priority
