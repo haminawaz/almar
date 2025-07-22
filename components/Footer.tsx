@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h3 className="font-normal mb-4 text-white">Contact</h3>
+              <a href="#contact" className="font-normal mb-4 text-white">Contact</a>
             </div>
           </div>
 

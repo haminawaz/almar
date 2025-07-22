@@ -5,7 +5,7 @@ export default function CompanySection() {
     <section className="py-12 md:py-20 lg:pt-36 lg:pb-20">
       <div className="mx-auto w-full px-8 md:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
-          <div className="flex justify-center items-center h-full gap-6 lg:gap-0 lg:justify-between">
+          <div className="flex justify-center items-center h-full gap-6 lg:gap-0 lg:justify-evenly">
             <div className="flex items-center">
               <Image
                 src="/images/standard-logo.png"

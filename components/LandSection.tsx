@@ -2,15 +2,18 @@ import { ArrowRight, MoveRight, Plus } from "lucide-react";
 
 export default function LandSection() {
   return (
-    <section className="relative flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(/images/land.png)`,
-        }}
+    <section className="relative flex items-center justify-center overflow-hidden xxl:h-[100vh]">
+      <video
+        autoPlay
+        loop 
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
       >
-        <div className="absolute inset-0 bg-black bg-opacity-10"></div>
-      </div>
+        <source src="/videos/land.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="absolute inset-0 bg-black bg-opacity-25"></div>
 
       <div className="relative z-10 text-white w-9/12">
         <div className="text-left pt-20 pb-44 md:pt-28 md:pb-56">

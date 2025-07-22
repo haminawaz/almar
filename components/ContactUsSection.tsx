@@ -26,7 +26,9 @@ export default function ContactUsSection() {
               <Plus className="w-full h-full" strokeWidth={1} />
             </span>
             <span className="hidden group-hover:block w-8 h-8 md:w-9 md:h-9 xl:w-10 xl:h-10 transition-transform duration-300 bg-[#2c3848]">
-              <ArrowRight className="w-full h-full" strokeWidth={1} />
+              <a href="#contact">
+                <ArrowRight className="w-full h-full" strokeWidth={1} />
+              </a>
             </span>
           </button>
         </div>

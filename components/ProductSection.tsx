@@ -23,20 +23,20 @@ export default function ProductSection() {
               <span className="block group-hover:hidden w- h-8 md:w-11 md:h-9 xl:w-13 xl:h-10">
                 <Plus className="w-full h-full" strokeWidth={1} />
               </span>
-              <span className="hidden group-hover:block w-8 h-8 md:w-9 md:h-9 xl:w-10 xl:h-10 transition-transform duration-300 bg-[#2c3848]">
+              <span className="hidden group-hover:block w-8 h-8 md:w-9 md:h-9 xl:w-10 xl:h-10 transition-transform duration-300 bg-[#2c3848] text-white">
                 <ArrowRight className="w-full h-full" strokeWidth={1} />
               </span>
             </button>
           </div>
 
           <div className="flex items-ceter justify-center">
-            <div className="relative flex items-ceter justify-center w-[200px] md:w-[400px]">
+            <div className="relative flex items-ceter justify-center w-[400px] sm:w-[500px] lg:w-[600px] xxl:w-[700px]">
               <Image
                 src="/images/learn-more.png"
                 alt="learn-more"
                 className="object-cover"
-                width={400}
-                height={400}
+                width={700}
+                height={700}
                 priority
               />
             </div>
